@@ -36,6 +36,7 @@ export default defineConfig({
           { text: 'Input 输入框', link: '/components/input' },
           { text: 'Select 选择器', link: '/components/select' },
           { text: 'Switch 开关', link: '/components/switch' },
+          { text: 'Dropdown 下拉菜单', link: '/components/dropdown' }
 
 
         ]
