@@ -13,6 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vitepress-demo-preview/plugin": "^1.2.1",
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "study-element": "^1.0.2",
     "vitepress": "^1.0.0-rc.44"
   }
 }
