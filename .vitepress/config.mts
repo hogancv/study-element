@@ -40,8 +40,7 @@ export default defineConfig({
           { text: 'Tooltip 文字提醒', link: '/components/tooltip' },
           { text: 'Collapse 折叠面板', link: '/components/collapse' },
           { text: 'Form 表单', link: '/components/form' },
-
-
+          { text: 'Message 消息', link: '/components/message' },
         ]
       }
     ],
