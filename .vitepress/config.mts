@@ -38,6 +38,7 @@ export default defineConfig({
           { text: 'Switch 开关', link: '/components/switch' },
           { text: 'Dropdown 下拉菜单', link: '/components/dropdown' },
           { text: 'Tooltip 文字提醒', link: '/components/tooltip' },
+          { text: 'Collapse 折叠面板', link: '/components/collapse' },
 
 
         ]

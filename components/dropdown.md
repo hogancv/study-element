@@ -1,7 +1,3 @@
----
-description: Dropdown 组件的文档
----
-
 # Dropdown 下拉菜单
 
 将动作或菜单折叠到下拉菜单中。
@@ -36,8 +32,8 @@ description: Dropdown 组件的文档
 | menuOptions    | 菜单选项                                               | `MenuOption[]`                                                                                                                                                       | []      |
 | placement      | 菜单位置                                               | `'top' \| 'top-start' \| 'top-end' \| 'bottom' \| 'bottom-start' \| 'bottom-end' \| 'left' \| 'left-start' \| 'left-end' \| 'right' \| 'right-start' \| 'right-end'` | bottom  |
 | popper-options | [popper.js](https://popper.js.org/docs/v2/) parameters | refer to [popper.js](https://popper.js.org/docs/v2/) doc                                                                                                             | {}      |
-| open-delay     | 打开Dropdown延迟                                       | `number`                                                                                                                                                             | 0       |
-| close-delay    | 关闭Dropdown延迟                                       | `number`                                                                                                                                                             | 200     |
+| open-delay     | 打开 Dropdown 延迟                                     | `number`                                                                                                                                                             | 0       |
+| close-delay    | 关闭 Dropdown 延迟                                     | `number`                                                                                                                                                             | 200     |
 | trigger        | 触发方式                                               | `'hover' \| 'click'`                                                                                                                                                 | hover   |
 | manual         | 是否开启手动触发模式                                   | `boolean`                                                                                                                                                            | false   |
 | transition     | transition name                                        | `string`                                                                                                                                                             | ''      |
@@ -61,7 +57,7 @@ description: Dropdown 组件的文档
 
 ### Exposes
 
-| Name | Description      | Type                                   |
-| ---- | ---------------- | -------------------------------------- |
-| show | 手动开启Dropdown | `(event?: Event \| undefined) => void` |
-| hide | 手动关闭Dropdown | `(event?: Event \| undefined) => void` |
+| Name | Description       | Type                                   |
+| ---- | ----------------- | -------------------------------------- |
+| show | 手动开启 Dropdown | `(event?: Event \| undefined) => void` |
+| hide | 手动关闭 Dropdown | `(event?: Event \| undefined) => void` |
