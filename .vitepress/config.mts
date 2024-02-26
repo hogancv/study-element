@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'Dropdown 下拉菜单', link: '/components/dropdown' },
           { text: 'Tooltip 文字提醒', link: '/components/tooltip' },
           { text: 'Collapse 折叠面板', link: '/components/collapse' },
+          { text: 'Form 表单', link: '/components/form' },
 
 
         ]
