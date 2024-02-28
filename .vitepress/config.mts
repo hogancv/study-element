@@ -6,8 +6,10 @@ import {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "study-element",
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
+  ],
   markdown: {
     config(md) {
       md.use(containerPreview)
@@ -15,10 +17,10 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '示例', link: '/components/button' }
     ],
 
     sidebar: [
@@ -41,9 +43,8 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/hogancv/study-element_docs' }
     ]
   }
 })
