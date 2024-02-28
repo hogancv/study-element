@@ -23,11 +23,8 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+        text: '基础',
+        items: [{ text: '快速开始', link: '/quick-start' }]
       },
       {
         text: '组件',
