@@ -6,7 +6,7 @@ import {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/study-element_docs/',
+  base: '/study-element/',
   title: "study-element",
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
