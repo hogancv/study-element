@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a3 as t}from"./chunks/framework.swOPQrXq.js";const c=JSON.parse('{"title":"快速上手","description":"","frontmatter":{},"headers":[],"relativePath":"quick-start.md","filePath":"quick-start.md"}'),n={name:"quick-start.md"},h=t("",10),l=[h];function p(e,k,E,r,d,g){return a(),i("div",null,l)}const y=s(n,[["render",p]]);export{c as __pageData,y as default};
