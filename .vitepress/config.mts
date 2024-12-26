@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/study-element/',
   title: "study-element",
   head: [
-    ["link", { rel: "icon", href: "/logo.png" }],
+    ["link", { rel: "icon", href: "/study-element/logo.ico" }],
   ],
   markdown: {
     config(md) {
